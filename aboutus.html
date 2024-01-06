@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FarmConnect - About Us</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #343a40;
+    }
+
+    header {
+      background-color: #28a745;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+
+    .section {
+      flex: 1;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      margin: 0 10px;
+      animation: fadeIn 1s ease-in-out; /* Added fade-in animation */
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    h2 {
+      font-size: 28px;
+      color: #28a745;
+      margin-bottom: 20px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .team-members,
+    .mission-description {
+      text-align: left;
+    }
+
+    .contact-section {
+      text-align: center; /* Center the Contact Us section */
+      margin-top: 20px;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center; /* Center the links */
+      margin-top: 20px;
+    }
+
+    .contact-links a {
+      display: inline-block;
+      padding: 10px;
+      background-color: #28a745;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .contact-links a:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    FarmConnect - About Us
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>Our Team</h2>
+      <p>
+        We are a dynamic team of three, driven by a shared passion for addressing real-life challenges. Committed to making a meaningful impact, our enthusiasm fuels our efforts to construct robust systems that cater to the needs of farmers, customers, and communities.
+      </p>
+      <img src="about_us_team.gif" alt="Team Image" style="width:80%">
+      <div class="team-members">
+        <h3>Adithya- Founder</h3>
+        <p>Passionate visionary leading FarmConnect towards a sustainable future.</p>
+        <h3>Jane Smith - Developer</h3>
+        <p>Tech enthusiast turning ideas into reality for a seamless user experience.</p>
+        <h3>Bob Johnson - Designer</h3>
+        <p>Creative mind crafting visually appealing designs for FarmConnect.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Our Mission</h2>
+      <img src="bulb_gif-3.gif" alt="Mission Image" style="width:50%;">
+      <div class="mission-description">
+        <p>
+          At FarmConnect, our mission is to revolutionize agriculture by empowering farmers to connect directly with consumers. We aim to eliminate middlemen, ensure fair pricing, and build a sustainable and transparent agricultural ecosystem.
+        </p>
+        <p>
+          Join us in creating a future where technology bridges the gap between farmers and consumers, fostering a harmonious and efficient marketplace.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section contact-section">
+    <h2>Contact Us</h2>
+    <div class="contact-links">
+      <a href="mailto:info@farmconnect.com">Email</a>
+      <a href="https://www.facebook.com/farmconnect" target="_blank">Facebook</a>
+      <a href="https://www.linkedin.com/company/farmconnect" target="_blank">LinkedIn</a>
+      <a href="https://github.com/farmconnect" target="_blank">GitHub</a>
+    </div>
+  </div>
+</body>
+</html>
